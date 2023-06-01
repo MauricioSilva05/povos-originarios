@@ -1,0 +1,164 @@
+body{
+    box-shadow: 0px 0px  50px var(--cor2);
+    margin: 50px;
+    border: solid 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+}
+
+:root{
+    --cor1:#D56828;
+    --cor2:#572A10;
+    --cor3:#2f9e41;
+    --cor4:#DD966C;
+    --cor5:#A34F1F;
+}
+
+.topo{
+background-color: var(--cor1);
+height: 100%;
+padding: 10px;
+font-size: 50px;
+display: grid;
+grid-template-areas: 'tx ig';
+grid-template-columns: 3fr 1fr;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+
+#imagem{
+    grid-area: ig;
+    padding-left: 50px;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    max-height: 100%;
+}
+
+.menu{
+background-color: var(--cor2);
+height: 30px;
+text-align: center;
+padding: 20px 0px;
+display: flex;
+align-items: center;
+justify-content: center;
+position: sticky;
+top: 0px;
+border-bottom: solid 3px;
+border-top: solid 1px;
+font-variant: small-caps;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 5px;   
+}
+nav a:hover {
+    background-color: var(--cor1);
+    color: black;
+}
+
+a{
+   color: blue;
+   text-decoration: none;
+   font-weight: bold; 
+   border-radius: 5px; 
+   padding: 12px;
+}
+
+a:hover{
+background-color: blue;
+color: white;
+}
+
+.main{
+    height: 100%;
+    background-color: var(--cor4);
+    padding: 30px;
+}
+
+
+.footer{
+background-color: var(--cor4);
+height: 150px;
+padding: 20px;
+display: flex;
+}
+
+#cont{
+text-align: center;
+justify-content: center;
+align-items: center;
+font-weight: bold;
+padding-left: 150px;
+}
+
+
+
+
+/*textos*/
+p{
+    text-align: justify;
+    text-indent: 25px;
+    line-height: 2em;
+    font-size: 1.1em;
+}
+
+
+#h1top{
+    grid-area: tx;
+    font-family: 'Rubik Marker Hatch';
+    font-size: 4vw;
+    text-align: center;
+    margin: 0px;
+}
+
+#top{
+    text-align: center;
+    font-size: 30px;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Rubik Marker Hatch';
+    
+}
+
+h2{
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    text-indent: 5px; 
+}
+
+h1{
+    text-align: center;
+}
+
+/*imagens*/
+.imagens{
+  width: 100%;
+  height: 350px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cards{
+    width: 50%;
+    background-color: var(--cor1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+    border: solid 3px var(--cor5); 
+  }
+  
+.contcard p {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 20px;
+  }

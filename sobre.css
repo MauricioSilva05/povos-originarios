@@ -1,0 +1,76 @@
+body{
+  display: block;
+  margin: 0px;
+  background-color: #FBDF62;
+  
+}
+
+.header{
+    height: 100%;
+    background-color: #FBDF62;
+    text-align: center;
+    padding: 4px;
+    font-size: 25px;
+    background-image: linear-gradient(#CBCCD6,#FFFFFF);
+    display: flex;
+    justify-content: center;
+    font-family: 'Rubik Marker Hatch';
+}
+
+
+.main {
+  height: 400px;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+}
+
+.card{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 12px;
+}
+
+.contcard p {
+  text-align: center;
+  font-weight: bold;
+  padding: px 20px;
+  
+}
+
+.imagens{
+  height: 280px;
+  width: 200px;
+  margin: 10px;
+  border-radius: 12px;
+}
+
+.imagem{
+  height: 180px;
+  width: 100px;
+  margin: 10px;
+  border-radius: 12px;
+}
+
+.footer{
+  height: 82px;
+  background-image: linear-gradient(to top, #CBCCD6,#FFFFFF);
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+img{
+  width: 100px;
+  height: 100px;
+}
+
+
+
+
